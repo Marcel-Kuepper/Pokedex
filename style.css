@@ -3,3 +3,10 @@
     background-color: red;
     color: white;
 }
+
+.select {
+    cursor: pointer;
+    width: 200px;
+    background-color: rgb(109, 109, 235);
+    color: white;
+}

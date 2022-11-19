@@ -9,9 +9,18 @@
     <title>Pokedex</title>
 </head>
 <body>
-    <button onclick="showPokemon()">zeige Pokemon</button>
+    <button onclick="showPokemonList()">zeige Pokemon</button>
+    <div class="pokemon-list" id="pokemon-list">
+        <div class="select" onclick="showPokemon('bulbasaur')">bulbasaur</div>
+        <div onclick="showPokemon('ivysaur')">ivysaur</div>
+        <div onclick="showPokemon('venusaur')">venusaur</div>
+        <div onclick="showPokemon('charmander')">charmander</div>
+        <div onclick="showPokemon('charmeleon')">charmeleon</div>
+        <div onclick="showPokemon('charizard')">charizard</div>
+    </div>
     <div id="pokedex" class="pokedex">
         <div id="pokemon-name"></div>
+        <div id="abilitys"></div>
     </div>
 </body>
 </html>
